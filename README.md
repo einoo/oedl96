@@ -104,18 +104,57 @@ Forecast transient period: $Z_{j,-L,1} = X_{j,-L} + a_{j, -L}$
 <img src="./Figure/rep06.png" width="80%">
 </p>
 <p align="center" width="100%">
-<em>Figure 6. Multiple replicate method </em>
+<em>Figure 8. Multiple replicate method </em>
 </p>
 <p align="center" width="100%">
 <img src="./Figure/rep07.png" width="80%">
 </p>
 </p>
 <p align="center" width="100%">
-<em>Figure 7. Resutls of multiple replicate method </em>
+<em>Figure 9. Resutls of multiple replicate method </em>
 </p>
 
 ## Experimental settings
 
+The study implement the optimal experimental design to the adpative observation epxeriments. 
+<p align="center" width="100%">
+<img src="./Figure/illustration.png" width="80%">
+</p>
+<p align="center" width="100%">
+<em>Figure 10. Illustration of optimal experimental design and adpative observation experiment</em>
+</p>
+
 ## Results and discussions
 
+### (1) Influence of optimality criteria on the observation selections 
+
+<p align="center" width="100%">
+<img src="./Figure/Lorenz96_maxPb.png" width="80%">
+</p>
+<p align="center" width="100%">
+<em>Figure 11. Influence of optimality criteria on the observation selections </em>
+</p>
+
+### (2) Influence of selection strategies on the observation selections 
+
+<p align="center" width="100%">
+<img src="./Figure/Lorenz96_comparison.png" width="80%">
+</p>
+<p align="center" width="100%">
+<em>Figure 12. Influence of selection strategies on the observation selections </em>
+</p>
+
+### (3) Influence of multiple observations
+
+<p align="center" width="100%">
+<img src="./Figure/Lorenz96_letkf_multiobs.png" width="80%">
+</p>
+<p align="center" width="100%">
+<em>Figure 12. Influence of multiple observations on the results </em>
+</p>
+
 ## Summary
+
+The forecast could be improved if we select appropriate optimality criteria and error covariance. 
+
+I welcome any discussion and comments on the adaptive observation studies, please contact me by mao.ouyang@durham.ac.uk (einooumo@hotmail.com). 
