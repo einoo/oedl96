@@ -32,7 +32,7 @@ M = 40 (i.e., 10 days) is the forecast range which will be verified.
 
 The initial value: $X_{i, -L} \in \mathbb{N}(F/4, F/2)$
 
-Observation: $Y_{jn} = X_{jn} + a_{jn}, \a_{jn} \in \mathbb{N}(0, \varepsilon),\ \varepsilon=F/40$
+Observation: $Y_{jn} = X_{jn} + a_{jn}, a_{jn} \in \mathbb{N}(0, \varepsilon),\ \varepsilon=F/40$
 
 Data assimilation scheme: $R=0$, replace the forecast by the observation
 
@@ -65,7 +65,53 @@ Forecast transient period: $Z_{j,-L,1} = X_{j,-L} + a_{j, -L}$
 <img src="./Figure/rep01.png" width="80%">
 </p>
 <p align="center" width="100%">
-<em>Figure 2. To reproduce the state variables of Lorenz-96 model for 2 days </em>
+<em>Figure 3. Control case without supplementary observations </em>
+</p>
+
+#### (3) To select the targeted oceanic sites at random
+<p align="center" width="100%">
+<img src="./Figure/rep02.png" width="80%">
+</p>
+<p align="center" width="100%">
+<em>Figure 4. Random selection </em>
+</p>
+
+#### (4) To select the targeted oceanic sites where the analyszed and true values differ most greatly  
+<p align="center" width="100%">
+<img src="./Figure/rep03.png" width="80%">
+</p>
+<p align="center" width="100%">
+<em>Figure 5. Greatest difference between analysis and true state </em>
+</p>
+
+#### (5) To select the targeted oceanic sites by the multiple breeding method  
+<p align="center" width="100%">
+<img src="./Figure/rep04.png" width="80%">
+</p>
+<p align="center" width="100%">
+<em>Figure 6. Multiple breeding method </em>
+</p>
+<p align="center" width="100%">
+<img src="./Figure/rep05.png" width="80%">
+</p>
+</p>
+<p align="center" width="100%">
+<em>Figure 7. Resutls of multiple breeding method </em>
+</p>
+
+#### (6) To select the targeted oceanic sites by the multiple replicate method  
+<p align="center" width="100%">
+<img src="./Figure/rep06.png" width="80%">
+</p>
+<p align="center" width="100%">
+<em>Figure 6. Multiple replicate method </em>
+</p>
+<p align="center" width="100%">
+<img src="./Figure/rep07.png" width="80%">
+</p>
+</p>
+<p align="center" width="100%">
+<em>Figure 7. Resutls of multiple replicate method </em>
 </p>
 
 ## Experimental settings
