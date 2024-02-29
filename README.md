@@ -30,25 +30,25 @@ L = 360 (i.e., 90 days) represents the transient behaviour.
 N = 7200 (i.e., 5 years) uses as the reference data (nature run or true state). 
 M = 40 (i.e., 10 days) is the forecast range which will be verified. 
 
-The initial value: $$X_{i, -L} \in \mathbb{N}(F/4, F/2)$$
+The initial value: $X_{i, -L} \in \mathbb{N}(F/4, F/2)$
 
-Observation: $$Y_{jn} = X_{jn} + a_{jn},\ \a_{jn} \in \mathbb{N}(0, \varepsilon),\ \varepsilon=F/40$$
+Observation: $Y_{jn} = X_{jn} + a_{jn}, \a_{jn} \in \mathbb{N}(0, \varepsilon),\ \varepsilon=F/40$
 
-Data assimilation scheme: $$R=0$$, replace the forecast by the observation
+Data assimilation scheme: $R=0$, replace the forecast by the observation
 
-Model error: $$F^{'}=0.95F$$
+Model error: $F^{'}=0.95F$
 
-True value: $$X_{jn}$$ (At the end of $n$th time step)
+True value: $X_{jn}$ (At the end of $n$th time step)
 
-Observed value: $$Y_{jn}$$ (At land and targeted ocean sites)
+Observed value: $Y_{jn}$ (At land and targeted ocean sites)
 
-Analysis value: $$Z_{jn}$$ (At all sites)
+Analysis value: $Z_{jn}$ (At all sites)
 
-Forecast value: $$Z_{jnm}$$ ($$X_j$$ forecast from the analysis $$m$$ times steps before the end of $n$th time step)
+Forecast value: $Z_{jnm}$ ($X_j$ forecast from the analysis $m$ times steps before the end of $n$th time step)
 
 **A 0-day forecast is an analysis**
 
-Forecast transient period: $$Z_{j,-L,1} = X_{j,-L} + a_{j, -L}$$
+Forecast transient period: $Z_{j,-L,1} = X_{j,-L} + a_{j, -L}$
 
 ### Reproduction of the previous experiments
 
